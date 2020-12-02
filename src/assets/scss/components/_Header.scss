@@ -1,0 +1,81 @@
+.header{
+	position: fixed;
+	width: 100%;
+	padding: 5px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 100;
+	flex-wrap: wrap;
+	background: white;
+
+	&__logo{
+		position: relative;
+		img{
+			max-width: 100px;
+			max-height: 80px;
+		}
+		@include media(small){
+		  width: 50%;
+		  img{
+			width: 100%;
+			max-height: 60px;
+			object-fit: contain;
+		  }
+		}
+	}
+
+	&__navigation{
+		position: relative;
+
+		@include media(small){
+		  display: none !important;
+		}
+		a{
+			margin: 0 15px;
+			text-decoration: none !important;
+			border-bottom: 2px solid transparent;
+			color: $color-secondary;
+			cursor: pointer;
+			&:hover{
+				@include transition(.3s);
+				border-bottom: 2px solid $color-secondary;
+			}
+		}
+		.activeRoute{
+			border-bottom: 2px solid $color-secondary;
+		}
+	}
+
+	&__user{
+		position: relative;
+		@include media(small){
+			display: none !important;
+		}
+		img{
+			width: 40px;
+			height: 40px;
+			object-fit: contain;
+		}
+	}
+
+	&__menu{
+		position: relative;
+		width: 50%;
+		justify-content: flex-end;
+		display: none;
+		
+		button{
+			background: none;
+			border: none;
+			img{
+				filter: brightness(0) saturate(100%) invert(71%) sepia(58%) saturate(555%) hue-rotate(22deg) brightness(88%) contrast(88%);
+			}
+		}
+
+		@include media(small){
+		  display: flex;
+		}
+	}
+		
+}
