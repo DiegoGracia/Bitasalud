@@ -280,7 +280,16 @@ export default class Home extends Component{
               </div>
             </Slider>
           </div>
-
+          <div className="container">
+            <h2 style={{display:"flex", justifyContent:"center"}} >Testimonios</h2>
+            <h6>Las siguientes son experiencias personales de algunos de nuestros usuarios de producto, Nikken se reserva el derecho de interpretación y estas han sido suministradas bajo su consentimiento.</h6>
+            <div class="container" style={{display:"flex", flexFlow:"row wrap"}} >
+              <p>"Mi Familia usa Nikken desde hace 15 años, en la Ciudad de Mexico (esta información se las doy para que ponderen la mala calidad del agua), estos 15 años, nunca nos ha causado problema beber el agua NIKKEN, ya nos casamos mi hermana y yo, el filtro de mis Padres está perfecto, y cada una compró para su casa un filtro, los bebés de mi hermana beben agua NIKKEN (su pediatra lo recomendó desde el nacimiento para preparar la fórmula) y próximamente mi bebé también beberá agua NIKKEN. Soy Médico con especialidad en Otorrinolaringología, y lo super recomiendo."</p>
+              <p>"Mi nombre es María del Carmen Eyzaguirre, soy de Chile y me traje el PI WATER desde Colombia, hace 6 meses. Tuve la suerte de probar estos productos allá y realmente, el tomar agua pura, me cambió la vida. Yo no tomaba agua porque me caía mal. Ahora no dejo de hacerlo, Es realmente impresionante este filtro. Lo recomiendo a ojos cerrados."</p>
+              <p>"Desde siempre me consideré una persona saludable, porque disfruto haciendo deporte, como sano, cultivo mis emociones, duermo bien, hasta que conocí Nikken. Era una fase de apretada agenda laboral, con ataques de ansiedad incluidas, al punto de ir al cardiólogo (quien me recomendó dejar mi empleo y obligó a pensar y tomarlo en serio)... Empecé a consumir el agua del PiWater, con resultados que me acompañan hasta hoy (28 meses después): en 45 días se me dejó de caer el cabello, en 60 días reguló mi presión arterial y en 120 días había dejado de fumar. Todo esto ocurrió sin darme cuenta, cada resultado me lo hicieron ver personas ajenas a mí, mi peluquera mi médico y una amiga. Eliminó mis procesos de ansiedad por la vida ajetreada! Eso carece de precio, mi Calidad de Vida se ha potenciado."</p>
+              <p>"Excelente tamaño y el sabor del agua es bueno."</p>
+            </div>
+          </div>
           <div className="home__gallery" id="gallery">
             <div className="row">
                 <div className="col col-lg-7 col-12">
@@ -293,7 +302,6 @@ export default class Home extends Component{
                 </div>
             </div>
           </div>
-
           <div className="home__catalog" id="catalog">
 
             <img className="background" src={historyImage} alt="image"/>
