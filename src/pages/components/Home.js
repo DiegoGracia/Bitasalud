@@ -6,7 +6,10 @@ import mainImage from '../../assets/images/1.png';
 import historyImage from '../../assets/images/2.png';
 import benefitsBackground from '../../assets/images/3.png';
 import benefitsImage from '../../assets/images/4.png';
-import productsImage from '../../assets/images/6.png';
+import producto0 from '../../assets/images/6.png';
+import producto1 from '../../assets/images/1297.jpg'
+import producto2 from '../../assets/images/13201.jpg'
+import producto3 from '../../assets/images/Producto1.jpg'
 import galleryImage1 from '../../assets/images/7.png';
 import galleryImage2 from '../../assets/images/9.png';
 import galleryImage3 from '../../assets/images/8.png';
@@ -254,28 +257,28 @@ export default class Home extends Component{
               <div className="carouselItem">      
                 <a href=""> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
-                  <img src={productsImage} alt="productsImage1"/>
+                  <img src={producto0} alt="productsImage1"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
                 <a href=""> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
-                  <img src={productsImage} alt="productsImage2"/>
+                  <img src={producto1} alt="productsImage2"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
                 <a href=""> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
-                  <img src={productsImage} alt="productsImage3"/>
+                  <img src={producto2} alt="productsImage3"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
                 <a href=""> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
-                  <img src={productsImage} alt="productsImag4"/>
+                  <img src={producto3} alt="productsImag4"/>
                 </div>
               </div>
             </Slider>
