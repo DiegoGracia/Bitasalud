@@ -116,54 +116,6 @@ export default class Home extends Component{
                 </div>
               </div>
 
-              <div className="carouselItem">
-                <div className="row">
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                    <img src={mainImage} alt="mainImage2"/>
-                  </div>
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                      <h1>
-                        Bienestar
-                        <span>en tu vida</span>
-                      </h1>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        In cupiditate dolores maxime maiores consequatur pariatur sapiente 
-                        repellat quam, corporis aliquam, odio beatae 
-                        quidem quod autem voluptatibus error labore. Mollitia, fugiat.
-                      </p>
-                      <a className="main__button" href="">Texto</a>
-                  </div>
-
-                </div>
-              </div>
-
-              <div className="carouselItem">
-                <div className="row">
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                    <img src={mainImage} alt="mainImage3"/>
-                  </div>
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                      <h1>
-                        Bienestar
-                        <span>en tu vida</span>
-                      </h1>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        In cupiditate dolores maxime maiores consequatur pariatur sapiente 
-                        repellat quam, corporis aliquam, odio beatae 
-                        quidem quod autem voluptatibus error labore. Mollitia, fugiat.
-                      </p>
-                      <a className="main__button" href="">Texto</a>
-                  </div>
-
-                </div>
-              </div>
-
             </Slider>    
           </div>
 
@@ -209,43 +161,6 @@ export default class Home extends Component{
                 </div>
               </div>
 
-              <div className="carouselItem">
-                <div className="row">
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                      <h1>Waterfall</h1>
-                      {/* <h3>Purifier</h3> */}
-                      <p>
-                        Brinda a tu cuerpo agua refrescante, revitalizante, y muy saludable con este purificador de agua que la llena de minerales naturales que tu cuerpo necesita, y además la carga con iones negativos para brindarte una hidratación muy superior al agua regular embotellada. ¡Un producto de verdad espectacular!
-                      </p>
-                      <a className="main__button" href="">Texto</a>
-                  </div>
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                    <img src={benefitsImage} alt="benefitsImage2"/>
-                  </div>
-
-                </div>
-              </div>
-              
-              <div className="carouselItem">
-                <div className="row">
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                      <h1>Joyería</h1>
-                      {/* <h3>Purifier</h3> */}
-                      <p>
-                        Un accesorio que no sólo te hace lucir en tendencia, sino que beneficia tu salud y te ayuda con la prevención de malestares físicos. Collares, pendientes, y brazaletes, con efectos desinflamatorios y analgésicos, y tecnología magnética que ayuda a la desintoxicación. Cada accesorio tiene efectos distintos, pruébalos y notarás lo bien que te hacen sentir. 
-                      </p>
-                      <a className="main__button" href="">Texto</a>
-                  </div>
-
-                  <div className="col col-lg-6 col-md-6 col-12">
-                    <img src={benefitsImage} alt="benefitsImage3"/>
-                  </div>
-
-                </div>
-              </div>
           
             </Slider>
           </div>
@@ -255,28 +170,28 @@ export default class Home extends Component{
             <Slider {...productsSlider}>
               
               <div className="carouselItem">      
-                <a href=""> <span>Ver mas</span> </a>
+                <a href="https://legaspilozanofabelaa.mitiendanikken.com/productos/pimag/pimag-pi-water-13651"> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
                   <img src={producto0} alt="productsImage1"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
-                <a href=""> <span>Ver mas</span> </a>
+                <a href="https://legaspilozanofabelaa.mitiendanikken.com/productos/kenko-light/kenkolight-1297"> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
                   <img src={producto1} alt="productsImage2"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
-                <a href=""> <span>Ver mas</span> </a>
+                <a href="https://legaspilozanofabelaa.mitiendanikken.com/productos/kenko-balance/magduo-13201"> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
                   <img src={producto2} alt="productsImage3"/>
                 </div>
               </div>
 
               <div className="carouselItem">      
-                <a href=""> <span>Ver mas</span> </a>
+                <a href="https://legaspilozanofabelaa.mitiendanikken.com/productos/kenko-air/kenko-air-purifier-25-14412"> <span>Ver mas</span> </a>
                 <div className="carouselItem__image">
                   <img src={producto3} alt="productsImag4"/>
                 </div>
